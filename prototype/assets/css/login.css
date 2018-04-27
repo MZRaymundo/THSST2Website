@@ -1,0 +1,39 @@
+#logo{
+	font-size: 25pt;
+	border-bottom: 3px solid rgba(64, 64, 64, 1);
+}
+
+.login-form-container{
+	position: relative;
+	top: 25%;
+	margin: auto;
+	text-align: center;
+	height: 320px;
+	width: 320px;
+	/*border-radius: 400px;*/
+
+	/*background-color: rgba(64, 64, 64, 1);*/
+}
+
+.login-form{
+	position: relative;
+	left: 0;
+	top: 10px;
+	height: 100%;
+	width: 325px;
+}
+
+.form-input{
+	font-family: 'Gotham Book';
+	width: 90%;
+}
+
+.form-btn{
+	width: 42%;
+}
+
+.form-error{
+	font-family: 'Gotham Light';
+	color: rgba(200, 0, 0, 0.75);
+	/*display: none;*/
+}

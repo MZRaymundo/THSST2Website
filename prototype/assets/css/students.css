@@ -1,0 +1,126 @@
+.student-list-container{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	left: 25px;
+	width: 360px;
+	height: 530px;
+	border-radius: 10px 10px 0 0;
+	border: 1px solid rgba(64, 64, 64, 1);
+
+	/*background-color: #ddd;*/
+}
+
+.student-list-header{
+	position: relative;
+	height: 35px;
+	width: 100%;
+	border-radius: 7px 7px 0 0;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	background-color: rgba(64, 64, 64, 1);
+}
+
+.student-list{
+	position: relative;
+	width: 100%;
+	height: 93.4%;
+	overflow: auto;
+}
+
+.list-item{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	line-height: 35px;
+	border-bottom: 1px solid rgba(64, 64, 64, 1);
+	font-size: 10pt;
+}
+
+.list-item:hover, .list-item:focus{
+	background-color: #ddd;
+}
+
+.list-student-name, .list-school-name{
+	margin: none;
+	margin-left: 10px;
+}
+
+
+/*DETAILS OF A SELECTED STUDENT
+*************************************/
+.student-details-container{
+	position: relative;
+	display: inline-block;
+	left: 100px;
+	width: 58%;
+	height: 100%;
+
+	/*background-color: #ddd;*/
+}
+
+.student-info-container{
+	position: relative;
+	width: 100%;
+	background-color: #ddd;
+}
+
+.student-name{
+	position: relative;
+	left: 20px;
+	font-family: "Gotham Black";
+	font-size: 20pt;
+}
+
+.student-bday, .student-age, .student-age, .student-sex{
+	position: relative;
+	left: 20px;
+	bottom: 7px;
+}
+
+.assessment-list-container-header{
+	position: relative;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	color: white;
+	text-align: center;
+	background-color: rgba(64, 64, 64, 1); 
+	border-radius: 10px 10px 0 0;
+}
+
+/*for dropdown*/
+.header-item{
+	position: relative;
+	display: inline-block;
+}
+
+#drop-down-button{
+	position: absolute;
+	right: 0;
+	margin: 0 10px 0 0;
+	width: 35px;
+	height:100%;
+}
+
+
+#btn-dropdown-schools{
+	position: relative;
+	width: 30px;
+	height: 30px;
+	margin: 2px;
+	float: right;
+	border: none;
+	border-radius: 30px;
+}
+
+.school-list{
+	position: absolute;
+	z-index: 1;
+	background-color: #eee;
+	height: 0;
+	overflow-y: hidden;
+	/*display: none;*/
+}

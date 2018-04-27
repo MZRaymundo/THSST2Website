@@ -1,0 +1,14 @@
+table{
+	position: relative;
+	margin: auto;
+
+	height: 500px;
+	width: 700px;
+
+	background-color: rgba(0, 0, 0, 0,5);
+}
+
+tr{
+	position: absolute;
+	top: 25%;
+}

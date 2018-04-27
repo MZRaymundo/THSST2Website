@@ -1,0 +1,13 @@
+ .header-btn{
+ 	position: absolute;
+ 	width: 75px;
+ 	height: 75px;
+ }
+
+ #btn-home{
+ 	left: 0;
+ }
+
+ #btn-logout{
+ 	right: 0;
+ }

@@ -1,0 +1,207 @@
+/*COLORS
+===========================================================
+
+	THIS IS FOR NEXT TIME HEHEHEHEHEHHE
+
+
+***********************************************************/
+
+/*IMAGES USED
+**********************************************************/
+#btn-search{
+	background-image: url("../images/btn-search.png");
+}
+
+#btn-search-bar{
+	background-image: url("../images/btn-search-hover.png");
+}
+
+#btn-search:hover, #btn-search:focus, #btn-search-bar:hover, #btn-search-bar:focus{
+	background-image: url("../images/btn-search-hover.png");
+	background-color: rgba(64, 64, 64, 1);
+	border-color:  rgba(64, 64, 64, 1);
+}
+
+#btn-assessment{
+	background-image: url("../images/btn-assessment.png");
+}
+#btn-assessment:hover, #btn-assessment:focus{
+	background-image: url("../images/btn-assessment-hover.png");
+	background-color: rgba(64, 64, 64, 1);
+	border-color:  rgba(64, 64, 64, 1);
+}
+
+#btn-school{
+	background-image: url("../images/btn-school.png");
+}
+#btn-school:hover{
+	background-image: url("../images/btn-school-hover.png");
+	background-color: rgba(64, 64, 64, 1);
+	border-color:  rgba(64, 64, 64, 1);
+}
+
+#btn-student{
+	background-image: url("../images/btn-student.png");
+}
+#btn-student:hover{
+	background-image: url("../images/btn-student-hover.png");
+	background-color: rgba(64, 64, 64, 1);
+	border-color:  rgba(64, 64, 64, 1);
+}
+
+#btn-profile{
+	background-image: url("../images/btn-profile.png");
+}
+#btn-profile:hover, #btn-profile:focus{
+	background-image: url("../images/btn-profile-hover.png");
+	background-color: rgba(64, 64, 64, 1);
+	border-color:  rgba(64, 64, 64, 1);
+}
+
+#btn-logout{
+	background-image: url("../images/btn-logout.png");
+	border: none;
+}
+#btn-logout:hover, #btn-logout:focus{
+	background-image: url("../images/btn-logout-hover.png");
+	background-color: rgba(64, 64, 64, 1);
+	border-color:  rgba(64, 64, 64, 1);
+}
+
+#btn-add{
+	background-image: url("../images/btn-add.png");
+}
+
+#btn-add:hover, #btn-add:focus{
+	background-image: url("../images/btn-add-hover.png");
+	background-color: rgba(64, 64, 64, 1);
+	border-color:  rgba(64, 64, 64, 1);
+}
+
+#btn-cancel, #btn-delete, .btn-delete{
+	background-image: url("../images/btn-cancel.png");
+}
+
+#btn-cancel:hover, #btn-cancel:focus ,#btn-delete:hover, #btn-delete:focus, .btn-delete:hover, .btn-delete:focus{
+	background-image: url("../images/btn-cancel-hover.png");
+	background-color: rgba(64, 64, 64, 1);
+	border-color:  rgba(64, 64, 64, 1);
+}
+
+.btn-edit{
+	background-image: url("../images/btn-edit.png");
+}
+
+.btn-edit:hover, .btn-edit:focus{
+	background-image: url("../images/btn-edit-hover.png");
+	background-color: rgba(64, 64, 64, 1);
+	border-color:  rgba(64, 64, 64, 1);
+}
+
+.btn-right, .btn-alter{
+	background-image: url("../images/btn-right.png");
+}
+
+.btn-right:hover, .btn-right:focus, .btn-alter:hover, .btn-alter:focus{
+	background-image: url("../images/btn-right-hover.png");
+	background-color: rgba(64, 64, 64, 1);
+	border-color:  rgba(64, 64, 64, 1);
+}
+
+.btn-left{
+	background-image: url("../images/btn-left.png");
+}
+
+.btn-left:hover, .btn-left:focus{
+	background-image: url("../images/btn-left-hover.png");
+	background-color: rgba(64, 64, 64, 1);
+	border-color:  rgba(64, 64, 64, 1);
+}
+
+.btn-dropdown{
+	background-image: url("../images/btn-down-hover.png");
+}
+
+.btn-dropdown:hover{
+	background-image: url("../images/btn-down.png");
+	background-color: #ddd;
+}
+
+/*USED FONTS
+***********************************************************/
+@font-face {
+    font-family: "Gotham Book";
+    src: url("fonts/GOTHAM-BOOK.OTF");
+}
+
+@font-face {
+    font-family: "Gotham Nights";
+    src: url("fonts/GOTHAM NIGHTS.OTF");
+}
+
+@font-face {
+    font-family: "Gotham Light";
+    src: url("fonts/GOTHAM-LIGHT.OTF");
+}
+
+@font-face {
+    font-family: "Gotham Medium";
+    src: url("fonts/GOTHAM-MEDIUM.OTF");
+}
+
+@font-face {
+    font-family: "Gotham Black";
+    src: url("fonts/GOTHAM-BLACK.OTF");
+}
+
+/*UNIVERALLY USED STYLES
+***********************************************************/
+html, body{
+	font-family: "Gotham Light";
+	height: 625px;
+	width: 1360px;
+}
+
+a{
+	color: rgba(64, 64, 64, 1);
+}
+
+button{
+	margin: 10px;
+	background-size: 70%;
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+
+input{
+	margin: 10px;
+	background-size: 30%;
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.main-container{
+	position: relative;
+	display: block;
+	top: 95px;
+	width: 100%;
+	height: 85%;
+	/*background-color: #aaa;*/
+}
+
+.lbl-nav, .lbl-header{
+	font-family: "Gotham Black";
+	font-size: 12pt !important;
+	text-align: center;
+}
+
+.overlay{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	background-color: rgba(64, 64, 64, 0.75);
+	z-index: 999;
+	display: none;
+}

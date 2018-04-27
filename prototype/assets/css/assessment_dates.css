@@ -1,0 +1,242 @@
+/* OVERLAY
+**********************************************/
+.overlay-main-container{
+	position: relative;
+	margin: auto;
+	top: 12%;
+	height: 50%;
+	width: 50%;
+	border: 3px solid rgba(64, 64, 64, 1);
+	border-radius: 10px;
+	background-color: white;
+}
+
+
+.btn-add-assessment-container{
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	font-family: 'Gotham Black'; 
+}
+
+.btn-add-assessment{
+	position: relative;
+	left: 45px;
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	border: 5px solid rgba(64, 64, 64, 1);
+	text-align: center;
+	line-height: 100px;
+}
+
+#btn-cancel {
+	position: relative;
+	top: -25px;
+	float: right;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+	border: 3px solid rgba(64, 64, 64, 1);
+	background-color: white;
+}
+
+.assessment-form{
+	position: relative;
+	margin: 25px 25px 10px 25px;
+	width: 80%;
+	height: 65%;
+}
+
+input, select{
+	margin: 0;
+}
+
+td{
+	border: none;
+	padding-top: 25px;
+}
+
+.assessment-details{
+	position: relative;
+	width: 100%;
+}
+
+#submit-btn-add-assessment, #submit-btn-edit-assessment{
+	position: relative;
+	top: 25px;
+	left: 27.5%;
+	height: 50px;
+	width: 300px;
+
+	font-family: 'Gotham Black';
+	font-size: 12pt;
+
+	border-radius:  50px 50px 50px 50px;
+	border: 3px solid;
+}
+
+#submit-btn-add-assessment:hover, #submit-btn-edit-assessment{
+	color: white;
+	background-color: rgba(64, 64, 64, 1);
+	border: 3px solid rgba(64, 64, 64, 1);	
+}
+
+/* BUTTONS CONTAINER
+**********************************************/
+.btn-container{
+	position: relative;
+}
+
+.btn-delete, 
+.btn-edit{
+	position: relative;
+	height: 30px;
+	width: 30px;
+	border-radius: 30px;
+	border: 3px solid rgba(64, 64, 64, 1);
+	/*display: none;*/
+}
+
+.assessment-sched-alter-buttons{
+	height: 100%;
+	width: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	float: right;
+}
+
+.btn-alter{
+	position: relative;
+	float: right;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	border: 3px solid rgba(64, 64, 64, 1);
+}
+
+/* MAIN CONTAINER
+**********************************************/
+.sched-per-day{
+	position: relative;
+	left: 10%;
+	margin-top: 30px;
+}
+
+.assessment-sched-container-complete-date{
+	position: relative;
+	height: 50px;
+	width: 100%;						
+
+	font-family: "Gotham Black";
+	font-size: 20pt;
+	text-transform: capitalize;
+
+	/*background-color: #aaa;*/
+}
+
+.sched-container-header{
+	position: relative;
+	text-align: left;
+	width: 100%;
+	height: 35px;
+	background-color: rgba(64, 64, 	64, 1);
+}
+
+#assessment-sched-header{
+	border-radius: 10px 10px 0 0;
+}
+ 
+#header-time, .assessment-sched-container-time{
+	width: 125px;
+}
+
+#header-school-name, .assessment-sched-container-school-name{
+	width: 440px;
+}
+
+#header-school-password, .assessment-sched-container-password{
+	width: 200px;
+}
+
+.header-item{
+	position: relative;
+	left: 12px;
+	display: inline-block;
+	line-height: 35px;
+	vertical-align: middle;
+	color: white;
+}
+
+.assessment-sched{
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+
+.assessment-sched-container{
+	position: relative;
+	height: 50px;
+	width: 115%;
+}
+
+.assessment-sched-details{
+	position: absolute ;
+	height: 100%;
+	width: 87%;
+	background-color: #ddd;
+	border-bottom: 1px solid rgba(64, 64, 64, 1);
+}
+
+.assessment-sched-details:hover{
+	background-color: #ccc;
+}
+
+.assessment-sched-container-date, 
+.assessment-sched-container-day, 
+.assessment-sched-container-time, 
+.assessment-sched-container-teacher, 
+.assessment-sched-container-school-name,
+.assessment-sched-container-password{
+	position: relative;
+	display: inline-block;
+	left: 12px;
+	line-height: 50px;
+	height: 100%;
+}
+
+.assessment-sched-container-teacher{
+	width: 24%;
+}
+
+/*OVERLAY*/
+ #overlay-add-assessment{
+ 	display: none;
+ }
+
+ #overlay-delete-assessment{
+ 	height: 200px;
+ 	width: 400px;
+ }
+
+ .delete-msg{
+ 	position: relative;
+ 	margin-top: 50px;
+ 	width: 100%;
+ 	text-align: center;
+ }
+
+ .btn-choice{
+ 	position: relative;
+ 	width: 100px;
+ 	top: 20px;
+ 	left: 18%;
+ 	font-family: 'Gotham Black';
+ 	border: 2px solid rgba(64, 64, 64, 1);
+ }
+
+ .btn-choice:hover{
+ 	background-color: rgba(64, 64, 64, 1);
+ 	border: 2px solid rgba(64, 64, 64, 1);
+ 	color: white;
+ }

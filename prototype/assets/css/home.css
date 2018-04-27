@@ -1,0 +1,23 @@
+.nav-container{
+ 	position: relative;
+ 	top: 20%;
+ 	text-align: center;
+ 	width: 100%;
+ 	height: 275px;
+ 	/*background-color: #555;*/
+ }
+
+.btn-container{
+	position: relative;
+	display: inline-block;
+ 	
+}
+
+ .btn-nav{
+ 	position: relative;
+ 	height: 175px;
+ 	width: 175px;
+ 	margin: 30px;
+ 	border-radius: 175px;
+ 	border: 5px solid rgba(64, 64, 64, 1);
+ }

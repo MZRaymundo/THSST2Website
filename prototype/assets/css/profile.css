@@ -1,0 +1,84 @@
+#profile-header{
+	font-size: 25pt;
+	border-bottom: 3px solid rgba(64, 64, 64, 1);
+}
+
+.profile-container{
+	position: relative;
+	top: 25%;
+	margin: auto;
+	text-align: center;
+	height: 320px;
+	width: 320px;
+	/*border-radius: 400px;*/
+
+	/*background-color: rgba(64, 64, 64, 1);*/
+}
+
+.profile{
+	position: relative;
+	left: 0;
+	top: 10px;
+	height: 100%;
+	width: 325px;
+}
+
+.left-table{
+	padding-top: 10px;
+	margin-right: 25px;
+	font-family: 'Gotham Medium';	
+	font-size: 13pt;
+}
+
+.right-table{
+	padding-top: 10px;
+	padding-left: 18px;
+	font-family: 'Gotham Book';
+	font-size: 12pt;
+}
+
+
+/*****************************************/
+.temp, .temp2{
+	position: relative;
+	top: 150px;
+	display: block;
+
+	height: 100px;
+	width: 100%;
+
+	text-align: center;
+}
+
+.temp{
+	font-family:'Gotham Medium';
+	font-size: 75px;
+}
+
+.temp2{
+	font-family:'Gotham Light';
+	font-size: 32px;
+}
+
+.btn-back{
+	position: relative;
+	top: 125px;
+	display: block;
+	margin: auto;
+
+	height: 50px;
+	width: 200px;
+	border: 3px solid rgba(64, 64, 64, 1);
+	border-radius: 50px;
+
+	font-family: 'Gotham Black';
+	text-transform: uppercase;
+	text-align: center;
+
+	background-color: rgba(64, 64, 64, 1);
+	color: white;
+}
+
+.btn-back:hover, .btn-back:focus{
+	color: rgba(128, 128, 128, 1);
+}

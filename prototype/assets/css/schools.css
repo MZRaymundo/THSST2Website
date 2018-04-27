@@ -1,0 +1,147 @@
+.school-list-container{
+	position: fixed;
+	display: inline-block;
+	vertical-align: top;
+	left: 25px;
+	width: 360px;
+	height: 530px;
+	border-radius: 10px 10px 0 0;
+	border: 1px solid rgba(64, 64, 64, 1);
+
+	/*background-color: #ddd;*/
+}
+
+.school-list-header {
+	position: relative;
+	height: 35px;
+	width: 100%;
+	border-radius: 7px 7px 0 0;
+	line-height: 35px;
+	text-align: center;
+	color: white;
+	background-color: rgba(64, 64, 64, 1);
+}
+
+.school-list{
+	position: relative;
+	width: 100%;
+	height: 93.4%;
+	overflow: auto;
+}
+
+.list-item{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	line-height: 35px;
+	border-bottom: 1px solid rgba(64, 64, 64, 1);
+	font-size: 10pt;
+}
+
+.list-item:hover, .list-item:focus{
+	background-color: #ddd;
+}
+
+.list-school-name{
+	margin: none;
+	margin-left: 10px;
+}
+
+
+/*DETAILS OF A SELECTED SCHOOL
+*************************************/
+.school-details-container{
+	position: relative;
+	left: 460px;
+	width: 58%;
+	height: 100%;
+	display: none;
+
+	/*background-color: #aaa;*/
+}
+
+.school-info-container{
+	position: relative;
+	width: 100%;
+	background-color: #ddd;
+}
+
+.school-name{
+	position: relative;
+	left: 20px;
+	font-family: "Gotham Black";
+	font-size: 20pt;
+}
+
+.school-address{
+	position: relative;
+	left: 20px;
+	bottom: 7px;
+}
+
+.students-per-section{
+	position: relative;
+	display: block;
+	margin-top: 25px;
+}
+
+.section-name{
+	position: relative;
+	width: 100%;
+	height: 35px;
+	font-family: "Gotham Black";
+	font-size: 16pt;
+}
+
+.student-list-container-header{
+	position: relative;
+	width: 100%;
+	height: 35px;
+	background-color: rgba(64, 64, 64, 1); 
+	border-radius: 10px 10px 0 0;
+}
+
+.header-item, .item-info{
+	position: relative;
+	display: inline-block;
+	padding: 7px;
+	height: 100%;
+}
+
+.header-item{
+	color: white;
+}
+
+.student-list{
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: auto;
+
+	background-color: #ddd;
+}
+
+.student-list-container{
+	border-bottom:  1px solid rgba(64, 64, 64, 1);
+}
+
+.student-list-container:hover{
+	background-color: #ccc;
+}
+
+/*per column*/
+.student-name{
+	width: 500px;
+}
+
+.student-bday{
+	position: relative;
+	width: 100px;
+	text-align: center;
+}
+
+.student-age, .student-sex{
+	width: 50px;
+	text-align: center;
+}
